@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  background: #f6fdf6;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.question-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.options button {
+  display: block;
+  margin: 8px 0;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.options button.correct {
+  background-color: #c8f7c5;
+}
+
+.options button.incorrect {
+  background-color: #fff3a3;
+}
+
+.timer {
+  font-weight: bold;
+  color: green;
+  margin-bottom: 20px;
+}
+.options button {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  border-radius: 4px;
+  width: 100%;
+  text-align: left;
+  transition: background 0.3s;
+}
+
+.options button.selected {
+  background: #ffeaa7; /* жовтий під час вибору */
+}
+
+.options button.correct {
+  background: #c8f7c5;
+  border-color: #2ecc71;
+}
+
+.options button.incorrect {
+  background: #f7c5c5;
+  border-color: #e74c3c;
+}
+.question-box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 8px;
+  object-fit: contain;
+  max-height: 300px; /* Можна змінити або прибрати */
+}
