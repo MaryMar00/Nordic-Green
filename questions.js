@@ -269,7 +269,7 @@ const questions = [
    "text": "що це за помидори?",
    "image": "photo27.jpg",
    "options": ["Linea", "Tomatmix", "Plommon", "San morzano"],
-     "correct": [3]
+     "correct": [0]
  },
  {
    "text": "що це за помідори?",
