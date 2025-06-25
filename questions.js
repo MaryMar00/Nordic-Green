@@ -255,7 +255,7 @@ const questions = [
  },
  {
    "text": "помідори які на фото?",
-   "image": "photo21.jpg",
+   "image": "photo1.jpg",
    "options": ["Ica Plommon 500", "Ica Juanita 500", "Ica Tomatmix 200", "Sity Gross Plommon 200"],
      "correct": [0]
  },
