@@ -99,7 +99,7 @@ function arraysEqual(a, b) {
 }
 
 function startTimer() {
-  let time = 10;
+  let time = 30;
   document.getElementById("timer").innerText = time;
   clearInterval(countdown);
   countdown = setInterval(() => {
