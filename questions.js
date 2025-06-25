@@ -1,6 +1,6 @@
 const questions = [
   {
-    "text": "Яка вага трозі у сорту 'Plommon 400 Coop'?",
+    "text": "Яка вага трозі у сорту 'Plommon  Coop'?",
     "options": [
       "600 г",
       "300 г",
@@ -13,12 +13,12 @@ const questions = [
     "image": ""
   },
   {
-    "text": "Який магазин замовив 'Plommon 400 Coop'?",
+    "text": "Який магазин замовив 'Plommon 400 '?",
     "options": [
       "Coop",
       "ICA",
       "LIDL",
-      "Coop"
+      "NJS"
     ],
     "correct": [
       0,
@@ -40,7 +40,7 @@ const questions = [
     "image": ""
   },
   {
-    "text": "Яка вага у трозі  сорту 'Plommon 400 NJS'?",
+    "text": "Яка вага у трозі  сорту 'Plommon  NJS'?",
     "options": [
       "400 г",
       "600 г",
@@ -53,7 +53,7 @@ const questions = [
     "image": ""
   },
   {
-    "text": "Яка вага трозі у сорту 'Plommon 500 ICA'?",
+    "text": "Яка вага у трозі у сорту 'Plommon  ICA'?",
     "options": [
       "600 г",
       "450 г",
@@ -66,7 +66,7 @@ const questions = [
     "image": ""
   },
   {
-    "text": "Який магазин замовив 'Plommon 500 ICA'?",
+    "text": "Який магазин замовив 'Plommon 500 '?",
     "options": [
       "Coop",
       "ICA",
@@ -74,7 +74,8 @@ const questions = [
       "AXF"
     ],
     "correct": [
-      1
+      1,
+      3, 2
     ],
     "image": ""
   },
@@ -118,7 +119,7 @@ const questions = [
     "image": ""
   },
   {
-    "text": "Яка вага трозі у сорту 'Plommon 500 AXF'?",
+    "text": "Яка вага трозі у сорту 'Plommon  AXF'?",
     "options": [
       "600 г",
       "300 г",
@@ -200,7 +201,7 @@ const questions = [
  },
  {
    "text": "які помідори на фото?",
-   "image": "photo30.jpg",
+   "image": "photo31.jpg",
    "options": ["Juanita", "Linea", "Plommon", "kvist"],
      "correct": [3]
  },
@@ -285,22 +286,22 @@ const questions = [
  {
    "text": "в які ящікі ми пакуєм Plommon 400 Coop?",
    "options": ["пластік красні ручкі широкі", "маленькі пластік", "зелені високі картон", "зелені широкі картон"],
-     "correct": [1]
+     "correct": [0]
  },
  {
    "text": "Plommon 400 грам на які магазіни ідуть замовлення?",
    "options": ["Coop", "NJS", "Lidl", "AXF"],
-     "correct": [0]
+     "correct": [0, 1]
  },
  {
    "text": "Plommon 500 грам на які магазини ідуть замовлення?",
    "options": ["NJS", "Coop", "AXF", "Ica"],
-     "correct": [3]
+     "correct": [2, 3]
  },
   {
    "text": "Plommon 500 грам зелені високі картон ящікі в який магазин пакуємо?",
    "options": ["Ica", "Lidl", "Coop", "AXF"],
-     "correct": [0]
+     "correct": [1]
  },
  {
    "text": "Plommon 400 грам Coop скільки ящіків в 1 великій палєті?",
@@ -308,9 +309,9 @@ const questions = [
      "correct": [0]
  },
  {
-   "text": "на якій магазін відправляється Plommon 500 грам з синіми єтікетками Катрін?",
+   "text": "на якій магазін відправляється Plommon 500 грам з синіми єтікетками Katrin?",
    "options": ["Ica", "Coop", "AXF", "Sity Gross"],
-     "correct": [0]
+     "correct": [2]
  },
  {
    "text": "яка фолія використовується для Plommon 500 Ica?",
@@ -320,7 +321,7 @@ const questions = [
  {
    "text": "для якого магазіну дуже важлива дата?",
    "options": ["Ica", "Coop", "Sity Gross", "Lidl"],
-     "correct": [0]
+     "correct": [3]
  },
  {
    "text": "В який магахин на пряму ми не відправляємо продукцію?",
@@ -328,17 +329,17 @@ const questions = [
      "correct": [0]
  },
  {
-   "text": "в який магазин ми відправляємо кортонні коробки Plommon 500 грамм?",
+   "text": "в який магазин ми відправляємо продукцію в картонних коробках Plommon 500 грамм?",
    "options": ["Ica", "Lidl", "Coop", "Sity Gross"],
-     "correct": [0]
+     "correct": [1]
  },
  {
-   "text": "якому магазині кількість ящиків в палєті 64 штуки?",
+   "text": "якому магазині кількість ящиків в палєті 64 штуки для Plommon?",
    "options": ["AXF", "Lidl", "Ica", "Coop"],
      "correct": [0]
  },
  {
-   "text": "в якому магазині пів плєти великоі 32 ящіки?",
+   "text": "в якому магазині пів плєти великоі 32 ящіки для помідорів san morzano?",
    "options": ["AXF", "Lidl", "Ica", "Coop"],
      "correct": [0]
  },
